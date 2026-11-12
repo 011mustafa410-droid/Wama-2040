@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WAMA — نظام الصيانة التنبؤية الذكي للمحركات الحثية | مشروع التخرج 2026</title>
+<meta name="description" content="WAMA: منظومة صيانة تنبؤية للمحركات الحثية ثلاثية الأوجه مع محاكاة حية ومساعد صوتي، ومرتبطة بأنظمة إدارة المباني (BMS).">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+
+<!-- Open Graph (واتساب / لينكدإن / فيسبوك) — غيّر النطاق بعد النشر -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:site_name" content="WAMA">
+<meta property="og:title" content="WAMA | Industrial AI Predictive Maintenance">
+<meta property="og:description" content="مستقبل الصيانة الصناعية الذكية وإدارة المباني.">
+<meta property="og:url" content="https://wama-2027-22.vercel.app/">
+<meta property="og:image" content="https://wama-2027-22.vercel.app/assets/images/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/icon-192.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+<!-- خطوط Cairo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;900&display=swap">
+
+<link rel="stylesheet" href="style.css">
+<script>try{if(localStorage.getItem('wama_theme')==='light')document.documentElement.setAttribute('data-theme','light')}catch(e){}</script>
+</head>
+<body>
+<div id="intro" role="dialog" aria-label="مقدمة WAMA"><div class="ig"></div><img id="iimg" alt="WAMA"><p class="st">منظومة صيانة تنبؤية للمحركات الحثية ثلاثية الأوجه</p><div class="wave iw" id="iw" aria-hidden="true" style="margin:4px 0;height:56px"></div><div id="ibt" aria-live="polite"></div><div class="ip"><i id="ipb"></i></div><button id="iskip">ادخل الموقع ←</button><div id="lg" hidden><p class="st2">ادخل الـ ID بتاعك</p><input id="lid" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="W26-XXXX" aria-label="ID"><button class="go" id="lgo" style="margin:0">دخول</button><p id="lerr" aria-live="polite"></p><div class="or"><span>أو</span></div><button class="go ghost" id="lguest" style="margin:0">ادخل كزائر وتعرّف على المشروع</button></div><div id="wl" hidden><div class="wh">Welcome</div><div class="wn" id="wn"></div><div class="wr" id="wr"></div><div class="wq" id="wq"></div><button class="go" id="wgo" style="margin:0">ادخل الموقع ←</button></div></div>
+<div id="rpt" aria-hidden="true"></div><div id="orbs" aria-hidden="true"><i class="o1"></i><i class="o2"></i><i class="o3"></i><i class="o4"></i><i class="o5"></i><i class="o6"></i></div><div id="sp" aria-hidden="true"></div><button id="up" aria-label="لأعلى">↑</button>
+<nav class="nv" aria-label="صفحات الموقع"><div class="in" id="nvb"></div></nav>
+<header class="hero wrap">
+<img src="assets/images/logo.webp" width="760" height="422" fetchpriority="high" decoding="async" alt="شعار WAMA — مشروع التخرج 2026">
+<h1>منظومة صيانة تنبؤية للمحركات الحثية ثلاثية الأوجه</h1>
+<p>تحس بالعطل قبل ما يحصل، وتكلّم الفني بالصوت يعمل إيه خطوة بخطوة.</p>
+<div class="wave" id="wave" aria-hidden="true"></div>
+</header>
+
+<main class="wrap">
+<section data-p="home">
+<h2>ليه بنعمل المشروع؟</h2>
+<p class="lead">المحركات الحثية ثلاثية الأوجه هي عصب خطوط الإنتاج والمضخات في المصانع.</p>
+<div class="two">
+<div class="box"><h3>المشكلة</h3><p>لما المحرك يعطل فجأة (بلي يتكسر، ملفات تحترق، أو عدم اتزان) خط الإنتاج كله بيقف والمصنع بيخسر آلاف الجنيهات في الساعة. وساعات العطل بيحصل في نوبة ليلية من غير مهندس خبير، فالفني المبتدئ مش عارف يتصرف.</p></div>
+<div class="box hot"><h3>الحل: WAMA</h3><p>صيانة تنبؤية بتحس بالعطل قبلها بأسابيع، وبتتربط بأنظمة إدارة المباني (BMS)، ومعاها مساعد صوتي ذكي (Voice Copilot) بيرشد الفني خطوة بخطوة.</p></div>
+</div>
+<div class="stat"><b>+40%</b><span>خفض في التوقف غير المخطط له</span></div>
+<div class="kpi" aria-label="أرقام المشروع">
+<div class="box"><b><span class="counter" data-target="4">4</span></b><span>طبقات هندسية</span></div>
+<div class="box"><b><span class="counter" data-target="19">19</span></b><span>حساس في المنظومة</span></div>
+<div class="box"><b><span class="counter" data-target="2">2</span></b><span>محرك حثي للاختبار</span></div>
+<div class="box team-only"><b><span class="counter" data-target="15">15</span></b><span>عضو في الفريق</span></div>
+</div>
+</section>
+
+<section data-p="home">
+<h2>المشروع شغال إزاي؟</h2>
+<p>أربع طبقات هندسية، من المحرك لحد الشاشة والصوت. دوس على كل طبقة تشوف تفاصيلها.</p>
+<div class="flow">
+<details open><summary><span>الطبقة الأولى: الاستشعار وجمع البيانات<small>المحرك 3-Phase + الحساسات</small></span></summary>
+<div class="in"><p>العيون والودان اللي على الموتور بتقرأ صحته لحظة بلحظة: الاهتزاز، التيار، الحرارة، المجال المغناطيسي، والصوت الميكانيكي.</p></div></details>
+<details><summary><span>الطبقة الثانية: المعالجة الطرفية<small>عقد ESP32</small></span></summary>
+<div class="in"><p>الحساسات بتبعت بيانات سريعة جداً، ولو راحت كلها دفعة واحدة للكمبيوتر الرئيسي هيتقل ويقف. فكروت ESP32 بتقرأ بسرعة عالية، تنضف الإشارة من الضوضاء، وتجمعها في باقة منظمة (JSON Payload).</p></div></details>
+<details><summary><span>الطبقة الثالثة: العقل المركزي والذكاء الاصطناعي<small>Raspberry Pi 5 (8GB)</small></span></summary>
+<div class="in"><ul>
+<li><b>التحليل والتنبؤ:</b> تحويل الاهتزاز والتيار بـ Fast Fourier Transform (FFT) لمنحنيات طيفية، ومقارنتها بمعيار الجودة العالمي ISO 10816 لمعرفة هل البلي مكسور أو الموتور مش متزن.</li>
+<li><b>المساعد الصوتي المحلي:</b> Whisper لفهم الكلام + Local LLM للاستدلال + Piper TTS للرد بالصوت، كله محلياً من غير إنترنت.</li>
+<li><b>داشبورد الـ BMS</b> اللي بيعرض حالة المصنع.</li></ul></div></details>
+<details><summary><span>الطبقة الرابعة: واجهات العرض والتفاعل<small>HMI + BMS + Voice</small></span></summary>
+<div class="in"><p>شاشة لمس ميدانية جنب الموتور، شاشة مركزية في غرفة التحكم، ومساعد صوتي بالمايك والسماعة.</p></div></details>
+</div>
+</section>
+
+<section data-p="parts">
+<h2>الحساسات</h2>
+<p>بنية استشعار متعددة المعايير (Multi-Modal Sensing). فلتر حسب النوع:</p>
+<div class="chips" role="group" aria-label="تصفية الحساسات">
+<button aria-pressed="true" data-f="all">الكل</button><button aria-pressed="false" data-f="mech">ميكانيكية</button><button aria-pressed="false" data-f="elec">كهربائية</button><button aria-pressed="false" data-f="env">حرارة وبيئة</button>
+</div>
+<div class="grid" id="sg">
+<div class="s" data-c="mech"><span class="n">×1</span><code>ADXL345</code><h3>حساس اهتزاز ثلاثي المحاور</h3><p>يقيس الاهتزاز الميكانيكي ويقيّمه طبقاً لمعيار ISO 10816.</p></div>
+<div class="s" data-c="mech"><span class="n">×1</span><code>INMP441</code><h3>حساس البصمة الصوتية (MEMS)</h3><p>يلتقط الصوت والانبعاثات الميكانيكية للمحرك.</p></div>
+<div class="s" data-c="elec"><span class="n">×3</span><code>SCT-013 100A/50mA</code><h3>محولات تيار غير تداخلية</h3><p>تقيس تيار الأطوار الثلاثة (عبر ADS1115) لتحليل البصمة الكهربائية MCSA وكشف أعطال الملفات والروتور.</p></div>
+<div class="s" data-c="elec"><span class="n">×3</span><code>AC Voltage</code><h3>محول جهد متردد ثلاثي الأطوار</h3><p>يتابع ثبات جهد التغذية.</p></div>
+<div class="s" data-c="env"><span class="n">×4</span><code>DS18B20</code><h3>مسبار حرارة ستانلس ستيل</h3><p>يراقب حرارة كراسي التحميل (Bearings) والملفات.</p></div>
+<div class="s" data-c="elec"><span class="n">×2</span><code>Hall-Effect</code><h3>حساس تدفق مغناطيسي</h3><p>يقيس التشتت في المجال المغناطيسي للمحرك.</p></div>
+<div class="s" data-c="mech"><span class="n">×1</span><code>Inductive</code><h3>حساس سرعة حثي</h3><p>يقيس سرعة دوران المحرك والانزلاق.</p></div>
+<div class="s" data-c="env"><span class="n">×1</span><code>DHT22 / DHT11</code><h3>حرارة ورطوبة</h3><p>يراقب البيئة الداخلية للوحة التحكم والغرفة.</p></div>
+<div class="s" data-c="mech"><span class="n">×1</span><code>Proximity 30mm</code><h3>حساس معادن تقاربي</h3><p>يرصد الحركة الميكانيكية ويؤمّن خط السير.</p></div>
+<div class="s" data-c="mech"><span class="n">×1</span><code>4 DOF</code><h3>حساس زاوية وميل</h3><p>لاختبار الأحمال على خط السير الناقل.</p></div>
+<div class="s" data-c="mech"><span class="n">×1</span><code>Load Cell 5kg</code><h3>حساس وزن</h3><p>لاختبار وتصنيع الأحمال على خط السير الناقل.</p></div>
+</div>
+</section>
+
+<section data-p="parts">
+<h2>وحدات المعالجة</h2>
+<p>توزيع الأحمال على أكتر من متحكم عشان السرعة والتوسعة. <span class="team-only">المتاح في الميزانية: 4 كروت ESP32 عادية + 2 كارت ESP32-S3 Mini.</span></p>
+<div class="box hot" style="margin:18px 0 6px"><h3>Raspberry Pi 5 — 8GB (عدد 1)</h3><p>العقل المركزي: FFT Analysis، نموذج الاستدلال المحلي للمساعد الصوتي، وداشبورد الـ BMS.</p></div>
+<div class="node"><b class="t">ESP32 #1</b><div><h3>الحساسات الميكانيكية</h3><p>قراءة الاهتزاز عالي التردد (ADXL345) والبصمة الصوتية (INMP441).</p></div></div>
+<div class="node"><b class="t">ESP32 #2</b><div><h3>الحساسات الكهربائية والحرارية</h3><p>التيار (SCT-013 عبر ADS1115)، الحرارة (DS18B20)، التدفق المغناطيسي، والجهد.</p></div></div>
+<div class="node"><b class="t">ESP32 #3</b><div><h3>واجهة HMI</h3><p>الشاشة الصغيرة وشريحة اللمس.</p></div></div>
+<div class="node"><b class="t">ESP32-S3</b><div><h3>احتياطي وتوسعة</h3><p>للربط اللاسلكي المتقدم أو المعالجة الصوتية المحلية.</p></div></div>
+</section>
+
+<section id="sim" data-p="sim">
+<h2>سيموليشن حي للمنظومة</h2>
+<p>اختار عطل، حرّك شدته وحمل المحرك، وشوف WAMA بيكشفه من الاهتزاز والطيف والتيار والحرارة. الموجة بطيئة عن الحقيقة عشان تتشاف.</p>
+<div class="sim">
+<div class="fc" id="mf" role="group" aria-label="نوع العطل"><button aria-pressed="true" data-k="ok">سليم</button><button aria-pressed="false" data-k="brg">بلي تالف</button><button aria-pressed="false" data-k="unb">عدم اتزان</button><button aria-pressed="false" data-k="wnd">عطل ملفات</button></div>
+<div class="ctl"><label>شدة العطل <output id="msvo">40%</output><input type="range" id="msv" min="0" max="100" value="40"></label><label>حمل المحرك <output id="mldo">60%</output><input type="range" id="mld" min="0" max="100" value="60"></label></div>
+<div class="stt" id="mst"><b id="mstt"></b><span id="mstd"></span></div>
+<div class="tl"><div><small>اهتزاز RMS (mm/s)</small><b id="mrms"></b></div><div><small>حرارة الكراسي (°C)</small><b id="mtmp"></b></div><div><small>السرعة (RPM)</small><b id="mrpm"></b></div><div><small>العمر المتبقي المتوقع</small><b id="mrul"></b></div></div>
+<div class="iso" aria-hidden="true"><i id="mmk"></i></div>
+<canvas id="mcw" role="img" aria-label="إشارة الاهتزاز في الزمن"></canvas><p class="cap">إشارة الاهتزاز (ADXL345) في الزمن</p>
+<canvas id="mcs" role="img" aria-label="طيف FFT"></canvas><p class="cap">طيف FFT من 0 إلى 400 هرتز</p>
+<div class="ph" id="mph"></div>
+<button class="go" id="mask">اسأل WAMA عن الموتور</button><button class="go" id="mspk" hidden>اسمع الرد</button>
+<div class="vr" id="mrep" hidden></div>
+<div class="lg" id="mlg" aria-live="polite"></div><p style="margin-top:14px"><button class="go" data-goto="dash">شوف الداشبورد الكامل (موتورين + FFT + MCSA)</button></p>
+</div>
+</section>
+
+
+<section id="dash" data-p="dash">
+<h2>داشبورد WAMA — محاكاة لحظية</h2>
+<p>موتورين (M1 بقدرة 1.5 كيلووات و M2 بقدرة 0.75 كيلووات) بنفس منطق المشروع: كل حساس بيطلّع إشارة حقيقية، والـ FFT بيتحسب فعلاً على الإشارة، والتشخيص بيتاخد من القمم اللي في الطيف. الزمن متسرّع عشان تشوف العطل وهو بيتطور.</p>
+<div class="db">
+<div class="dcards" id="dcards"></div>
+<div class="fc" id="df" role="group" aria-label="نوع العطل"><button aria-pressed="true" data-k="ok">سليم</button><button aria-pressed="false" data-k="brg">بلي تالف</button><button aria-pressed="false" data-k="unb">عدم اتزان</button><button aria-pressed="false" data-k="wnd">عطل ملفات</button><button aria-pressed="false" data-k="mis">عدم محاذاة</button></div>
+<div class="ctl"><label>شدة العطل <output id="dsvo">40%</output><input type="range" id="dsv" min="0" max="100" value="40"></label><label>حمل المحرك <output id="dldo">60%</output><input type="range" id="dld" min="10" max="110" value="60"></label><label>تسريع الزمن <output id="dtso">×120</output><input type="range" id="dts" min="1" max="600" value="120"></label></div>
+<div class="dopt"><label><input type="checkbox" id="dau"> تدهور تلقائي للعطل (من سليم لعطل كامل في 4 ساعات محاكاة)</label><label><input type="checkbox" id="ddemo" checked> عرض تلقائي (سليم ثم تدهور بلي M1 ثم خطر ثم إصلاح)</label><button id="drpt">تقرير PDF</button><button id="drs">إعادة تشغيل الكونتاكتور</button><button id="drp">تم إصلاح المحرك</button></div>
+<div class="stt" id="dstat"></div>
+<div class="dg">
+<div><h3>طيف الاهتزاز: FFT بـ 2048 نقطة (ADXL345)</h3><canvas id="dc1" role="img" aria-label="طيف سرعة الاهتزاز"></canvas></div>
+<div><h3>طيف التيار MCSA حول 50 هرتز (SCT-013)</h3><canvas id="dc2" role="img" aria-label="طيف التيار بالديسيبل"></canvas></div>
+<div><h3>تيارات الأطوار الثلاثة</h3><canvas id="dc3" role="img" aria-label="موجات التيار"></canvas></div>
+<div><h3>مؤشر الصحة واتجاهه</h3><canvas id="dc4" role="img" aria-label="مؤشر الصحة"></canvas></div>
+</div>
+<div class="dsn" id="dsn"></div>
+<button class="go" id="dask">اسأل WAMA عن الموتور</button><button class="go" id="dspk" hidden>اسمع الرد</button>
+<div class="vr" id="drep" hidden></div>
+<div class="lg" id="dlg" aria-live="polite"></div>
+</div>
+</section>
+
+
+<section id="twin" data-p="twin">
+<h2>شاشة عرض المشروع الكاملة</h2>
+<p>المحرك والحساسات والـ ESP32 والراسبيري باي والشاشات في مشهد واحد، متوصلين ببعض ومربوطين بنفس المحاكاة بتاعة الداشبورد. اضغط على أي رقم حساس تشوف قراءته الحية.</p>
+<div class="tw">
+<div class="tc" id="tm" role="group" aria-label="اختيار المحرك والعطل"><button data-m="0" aria-pressed="true">M1</button><button data-m="1" aria-pressed="false">M2</button><button data-k="ok" aria-pressed="true">سليم</button><button data-k="brg" aria-pressed="false">بلي تالف</button><button data-k="unb" aria-pressed="false">عدم اتزان</button><button data-k="wnd" aria-pressed="false">عطل ملفات</button></div>
+<div class="tws"><svg id="tsv" viewBox="0 0 1000 610" role="img" aria-label="مشهد المشروع: المحرك الحثي والحساسات ولوحة MCC وعقد ESP32 والراسبيري باي والشاشات">
+<defs><filter id="tgl" x="-5%" y="-100%" width="110%" height="300%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="50" y="392" width="490" height="8" fill="#222"/>
+<path class="fl" id="tp1" stroke="#ff2a1f" d="M200 170V252"/><path class="fl" id="tp2" stroke="#fff" d="M225 170V252"/><path class="fl" id="tp3" stroke="#888" d="M250 170V252"/>
+<path class="fl" stroke="#ff2a1f" d="M205 400V450H540V275H560"/><path class="fl" stroke="#fff" d="M300 400V470H550V345H560"/>
+<path class="fl" stroke="#ff2a1f" d="M670 275H685V330H700M670 345H700M670 415H685V360H700M850 345H880M775 300V135H520M775 390V440"/>
+<rect class="bx" x="110" y="30" width="240" height="140" rx="6"/><text x="230" y="48">لوحة قوى MCC — IP65</text>
+<rect id="tcont" x="130" y="62" width="34" height="44" rx="3" fill="#22c55e"/><text x="147" y="88" style="fill:#000;font-weight:900">K1</text>
+<rect x="175" y="62" width="34" height="44" rx="3" fill="#333"/><text x="192" y="88">OL</text>
+<rect x="220" y="62" width="14" height="44" rx="2" fill="#333"/><rect x="240" y="62" width="14" height="44" rx="2" fill="#333"/><rect x="260" y="62" width="14" height="44" rx="2" fill="#333"/><text x="247" y="122">MCB</text>
+<rect x="190" y="198" width="20" height="14" rx="2" fill="none" stroke="#fff"/><rect x="215" y="198" width="20" height="14" rx="2" fill="none" stroke="#fff"/><rect x="240" y="198" width="20" height="14" rx="2" fill="none" stroke="#fff"/>
+<g id="tmot"><rect class="bx" x="80" y="270" width="230" height="110" rx="18"/><g id="tfins" stroke="#333"></g>
+<rect id="tglow" x="80" y="270" width="230" height="110" rx="18" fill="#ff2a1f" opacity="0"/>
+<rect class="bx" x="55" y="285" width="25" height="80" rx="6"/><rect class="bx" x="28" y="282" width="30" height="86" rx="10"/><rect class="bx" x="310" y="285" width="26" height="80" rx="6"/>
+<rect class="bx" x="190" y="248" width="70" height="22" rx="3"/><text x="225" y="263" style="font-size:10px">Terminal Box</text>
+<rect x="336" y="319" width="64" height="12" fill="#777"/><rect x="396" y="308" width="14" height="34" rx="3" fill="#555"/>
+<text x="195" y="432" style="font-size:13px;fill:#fff;font-weight:900">محرك حثي 3-Phase</text></g>
+<rect x="420" y="372" width="70" height="20" fill="#222"/>
+<g id="trot"><circle cx="455" cy="325" r="46" fill="#111" stroke="#888" stroke-width="3"/><g id="tsp" stroke="#555" stroke-width="3"></g><circle cx="455" cy="325" r="8" fill="#777"/><circle cx="455" cy="289" r="5" fill="#fff"/></g>
+<text x="455" y="440">حمل ميكانيكي (Load)</text>
+<rect class="bx" x="370" y="40" width="150" height="110" rx="8"/><rect x="378" y="48" width="134" height="94" fill="#000"/>
+<text id="th1" x="445" y="68" style="font-weight:900;fill:#fff">M1</text><text id="th2" x="445" y="92">RPM</text><text id="th3" x="445" y="112">°C</text><text id="th4" x="445" y="132">A</text><text x="445" y="168">HMI لمس 7 بوصة</text>
+<rect class="bx" x="560" y="250" width="110" height="50" rx="6"/><text x="615" y="272" style="fill:#fff;font-weight:900">ESP32 #1</text><text x="615" y="290" style="font-size:11px">ميكانيكي</text>
+<rect class="bx" x="560" y="320" width="110" height="50" rx="6"/><text x="615" y="342" style="fill:#fff;font-weight:900">ESP32 #2</text><text x="615" y="360" style="font-size:11px">كهربائي وحراري</text>
+<rect class="bx" x="560" y="390" width="110" height="50" rx="6"/><text x="615" y="412" style="fill:#fff;font-weight:900">ESP32 #3</text><text x="615" y="430" style="font-size:11px">واجهة HMI</text>
+<circle class="led" cx="660" cy="258" r="3" fill="#22c55e"/><circle class="led" cx="660" cy="328" r="3" fill="#22c55e"/><circle class="led" cx="660" cy="398" r="3" fill="#22c55e"/>
+<rect x="700" y="300" width="150" height="90" rx="8" fill="#111" stroke="#ff2a1f" stroke-width="2"/><text x="775" y="332" style="fill:#fff;font-weight:900;font-size:14px">Raspberry Pi 5</text><text x="775" y="352" style="font-size:11px">FFT · ISO 10816</text><text x="775" y="370" style="font-size:11px">Whisper · LLM · Piper</text><circle class="led" cx="838" cy="312" r="4" fill="#ff2a1f"/>
+<g id="tvoice"><circle cx="925" cy="345" r="26" fill="#111" stroke="#888" stroke-width="2"/><circle cx="925" cy="345" r="6" fill="#ff2a1f"/><path d="M958 325a30 30 0 0 1 0 40" fill="none" stroke="#ff2a1f" stroke-width="3"/><path d="M968 315a44 44 0 0 1 0 60" fill="none" stroke="#ff2a1f" stroke-width="3"/><text x="925" y="395" style="font-size:11px">مايك + سماعة</text></g>
+<rect class="bx" x="640" y="445" width="340" height="150" rx="6"/><text x="810" y="464" style="fill:#fff;font-weight:900">WAMA BMS — شاشة 24 بوصة</text>
+<circle id="tbd1" cx="662" cy="485" r="6" fill="#22c55e"/><text id="tb1" x="680" y="489" style="text-anchor:start">M1</text><circle id="tbd2" cx="662" cy="510" r="6" fill="#22c55e"/><text id="tb2" x="680" y="514" style="text-anchor:start">M2</text>
+<text id="tb3" x="660" y="545" style="text-anchor:start;font-size:10px;fill:#a8a8a8"></text>
+<line x1="800" y1="580" x2="965" y2="580" stroke="#333"/><polyline id="tspec" fill="none" stroke="#ff2a1f" stroke-width="1.5" points=""/>
+
+<text x="290" y="488" style="fill:#fff;font-weight:900">شريط LED RGB تفاعلي (WS2812B)</text>
+<g id="tled" filter="url(#tgl)"></g>
+<text id="tlt2" x="290" y="545" style="font-size:15px;font-weight:900">الحالة</text>
+<text id="tlt3" x="290" y="566" style="font-size:11px;fill:#a8a8a8"></text>
+<g id="tmk"></g>
+</svg></div>
+<div class="tn" id="tn" role="group" aria-label="الحساسات"></div>
+<div class="tp"><div><h3 id="ttl"></h3><p id="tmd"></p><span class="tv" id="tvl"></span><p id="twh"></p><p id="tws2"></p></div>
+
+<div><h3>المساعد الصوتي (استماع ونطق حقيقي)</h3><p id="tvs">اضغط الميكروفون واسألني بصوتك، أو اكتب سؤالك، أو اختار سؤال جاهز.</p>
+<div class="tcr"><button class="go" id="tmic">🎤 تكلّم</button></div>
+<div class="tcr"><input id="ttx" type="text" placeholder="اكتب سؤالك هنا" aria-label="سؤالك"><button class="go" id="tsd">إرسال</button></div>
+<div class="tn" id="tex"></div><div class="tchat" id="tch" aria-live="polite"></div></div>
+<div><h3>حالة شريط الـ LED الآن</h3><p><span class="sw" id="tsw"></span><b id="tln"></b> — <span id="tlb"></span></p><p id="tlw"></p><p id="tla"></p></div></div>
+</div>
+</section>
+
+<section data-p="parts">
+<h2>الشاشات والمساعد الصوتي</h2>
+<div class="two">
+<div class="box"><h3>شاشة لمس 7 بوصة</h3><p>HMI سعوية مثبتة على اللوحة جنب الموتور: السرعة، الحرارة، والإنذارات.</p></div>
+<div class="box"><h3>شاشة مركزية 24 بوصة</h3><p>لوحة BMS في غرفة التحكم: حالة كل المواتير والرسوم التنبؤية، وتترابط مع المبنى للتبريد أو الفصل التلقائي عند الخطر.</p></div>
+<div class="box"><h3>مصفوفة مايكروفون + سماعة</h3><p>مايكروفونات ذكية عازلة للضوضاء ومكبر صوت مدمج لالتقاط الأوامر وإخراج الردود.</p></div>
+</div>
+<div class="chat" id="chat">
+<div class="m q">يا WAMA، إيه حالة الموتور رقم 1؟</div>
+<div class="m a">الموتور يعمل بكفاءة، لكن يوجد ارتفاع طفيف في اهتزاز كراسي التحميل. يرجى التشحيم خلال 48 ساعة.</div>
+<button id="ask">اسأل WAMA</button>
+</div>
+</section>
+
+<section data-p="parts">
+<h2>المنظومة الكهربائية والميكانيكية</h2>
+<div class="two">
+<div class="box"><h3>محركات حثية 3 فاز (عدد 2)</h3><p>واحد 1.5 – 2 حصان وواحد 1 حصان: بيئة الاختبار الحقيقية.</p></div>
+<div class="box"><h3>لوحة قوى وحماية (MCC)</h3><p>كونتاكتورات، أوفر لود حراري، وقواطع فرعية (MCB).</p></div>
+<div class="box"><h3>صندوق IP65 وشاسيه</h3><p>صندوق لوحة صناعي IP65 مع شاسيه وتابلوه مكتبي هيدروليكي لتثبيت وتنسيق كل المكونات.</p></div>
+</div>
+</section>
+
+<section id="colors" data-p="colors">
+<h2>شيت الألوان</h2>
+<p>كل لون في الشاشة ليه معنى ثابت. الصف المضيء في أول جدول هو حالة الـ LED الحالية، وبيتحدّث وانت في صفحة شاشة العرض.</p>
+<div class="tsh"><h3>شيت ألوان شريط الـ LED RGB</h3><table><thead><tr><th>اللون</th><th>الحالة</th><th>السلوك</th><th>المعنى</th><th>الإجراء</th></tr></thead><tbody id="tlt"></tbody></table></div>
+<div class="tsh"><h3>شيت ألوان باقي عناصر الشاشة</h3><table><thead><tr><th>العنصر</th><th>اللون</th><th>المعنى</th></tr></thead><tbody>
+<tr><td>سلك بيانات متحرك</td><td>أحمر</td><td>بيانات الحساسات الميكانيكية (ADXL345 وINMP441 والسرعة والحمل) رايحة لـ ESP32 #1</td></tr>
+<tr><td>سلك بيانات متحرك</td><td>أبيض</td><td>بيانات الحساسات الكهربائية والحرارية رايحة لـ ESP32 #2</td></tr>
+<tr><td>كابلات الأطوار</td><td>أحمر / أبيض / رمادي</td><td>الأطوار L1 / L2 / L3، ولما الحماية تفصل بتقف وتبقى رمادي غامق</td></tr>
+<tr><td>الكونتاكتور K1</td><td>أخضر / أحمر</td><td>أخضر = مغلق والمحرك شغال، أحمر = مفتوح بعد فصل الحماية</td></tr>
+<tr><td>توهج جسم المحرك</td><td>أحمر شفاف</td><td>كل ما زاد التوهج زادت حرارة الملفات</td></tr>
+<tr><td>نقطة على عقد ESP32</td><td>أخضر</td><td>العقدة متصلة وبتبعت بيانات</td></tr>
+<tr><td>نقطة على الراسبيري</td><td>أحمر وامض</td><td>المعالجة شغالة: FFT وISO 10816 والذكاء الاصطناعي</td></tr>
+<tr><td>نقطة المحرك في شاشة BMS</td><td>أخضر / أصفر / برتقالي / أحمر</td><td>منطقة ISO 10816: A / B / C / D، والأحمر كمان معناه متوقف</td></tr>
+<tr><td>أعمدة طيف FFT</td><td>أحمر غامق / أحمر ساطع</td><td>طاقة طبيعية / طاقة أعلى من 1.8 mm/s</td></tr>
+<tr><td>أرقام الحساسات</td><td>أحمر / أبيض</td><td>أحمر = حساس، أبيض = الحساس المختار حالياً</td></tr>
+</tbody></table></div>
+</section>
+</main>
+
+<div class="wrap pn" id="pn"></div>
+<section id="calc" data-p="calc" hidden>
+<h2>حاسبة المحرك والحماية</h2><p>ادخل بيانات المحرك وهتطلع لك التيار والقاطع والأوفرلود والكابل المناسبين. الأرقام تقديرية وبتتراجع قبل التنفيذ.</p>
+<div class="sim2"><div class="ctl"><label>قدرة المحرك (kW)<input id="ckw" type="number" step="0.05" min="0.05" value="1.5"></label><label>الجهد (V)<input id="cv" type="number" value="380"></label><label>معامل القدرة<input id="cpf" type="number" step="0.01" value="0.85"></label><label>الكفاءة<input id="ceta" type="number" step="0.01" value="0.85"></label></div>
+<div class="tc"><button id="cm1">M1 — 1.5 kW</button><button id="cm2">M2 — 0.75 kW</button></div>
+<div class="tsh"><table><tbody id="cout"></tbody></table></div><p class="note">القاطع = 125% من تيار التشغيل، والكابل نحاس معزول PVC داخل مواسير. راجع الكود الكهربائي قبل التنفيذ.</p></div></section>
+<section id="log" data-p="log" hidden>
+<h2>السجل والمقارنة</h2><p>مقارنة حية بين صحة المحركين وسجل كامل لأحداث الداشبورد (إنذارات وفصل وإصلاح).</p>
+<div class="sim2"><h3>صحة M1 مقابل M2</h3><canvas id="cmpc" role="img" aria-label="مقارنة صحة المحركين" style="width:100%;height:220px;display:block"></canvas><div id="cmpt" style="margin-top:10px"></div></div>
+<div class="sim2"><h3>سجل الأحداث</h3><div class="tc"><button id="evcsv">تصدير CSV</button><button id="evclr">مسح</button><button id="rpt2">تقرير PDF</button></div><div class="tsh"><table><thead><tr><th>الزمن</th><th>المحرك</th><th>الحدث</th></tr></thead><tbody id="evb"></tbody></table></div></div></section>
+<section id="team" class="team-only" data-p="team" hidden>
+<h2>الفريق</h2><p>أعضاء المشروع ودور كل واحد في الأجزاء الأربعة.</p>
+<div class="ids-w"><h3>فريق الإشراف</h3><div class="ids" id="ids"></div><div class="tc"><button id="idp">طباعة البطاقات / حفظ PDF</button></div><p class="note">دوس على الصورة لتغيير صورة صاحب البطاقة (بتتحفظ على جهازك).</p></div>
+<h3 style="margin-top:26px">الطلبة</h3><div class="tmg" id="tmg"></div></section>
+<div class="wrap cta" id="contact">
+<h2>كتاب المشروع وتواصل معانا</h2>
+<p>حمّل نسخة كتاب التوثيق كاملة، أو ابعت لنا سؤالك أو ملاحظتك.</p>
+<div class="two">
+<div class="box hot team-only"><h3>كتاب المشروع التوثيقي</h3><p>النسخة الكاملة بصيغة PDF، متاحة للتحميل المباشر للجنة التحكيم.</p><a class="go" href="assets/Book_WAMA.pdf" download>تحميل الكتاب PDF</a></div>
+<form class="box cf" id="cf" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<h3>ابعت رسالة</h3>
+<label>الاسم<input type="text" name="name" required autocomplete="name"></label>
+<label>الإيميل<input type="email" name="email" required autocomplete="email" dir="ltr"></label>
+<label>رسالتك<textarea name="message" required></textarea></label>
+<input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button class="go" type="submit">أرسل الرسالة</button>
+<p id="cfs" aria-live="polite"></p>
+</form>
+</div>
+</div>
+<footer class="wrap"><b>WAMA</b> — Graduation Project 2026</footer>
+
+<script src="script.js" defer></script>
+<script src="guest.js" defer></script>
+</body>
+</html>

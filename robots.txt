@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# بعد النشر ضيف رابط خريطة الموقع لو عملتها:
+# Sitemap: https://YOUR-SITE.vercel.app/sitemap.xml
